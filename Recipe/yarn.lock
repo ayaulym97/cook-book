@@ -581,18 +581,6 @@
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@types/events/-/events-1.2.0.tgz#81a6731ce4df43619e5c8c945383b3e62a89ea86"
 
-"@types/expo@^27.0.5":
-  version "27.0.5"
-  resolved "https://registry.yarnpkg.com/@types/expo/-/expo-27.0.5.tgz#e9026a467f1ba69485bdd4421322936dda0c092e"
-  dependencies:
-    "@types/fbemitter" "*"
-    "@types/react" "*"
-    "@types/react-native" "*"
-
-"@types/fbemitter@*":
-  version "2.0.32"
-  resolved "https://registry.yarnpkg.com/@types/fbemitter/-/fbemitter-2.0.32.tgz#8ed204da0f54e9c8eaec31b1eec91e25132d082c"
-
 "@types/glob@*":
   version "5.0.35"
   resolved "https://registry.yarnpkg.com/@types/glob/-/glob-5.0.35.tgz#1ae151c802cece940443b5ac246925c85189f32a"
@@ -605,10 +593,6 @@
   version "0.12.6"
   resolved "https://registry.yarnpkg.com/@types/graphql/-/graphql-0.12.6.tgz#3d619198585fcabe5f4e1adfb5cf5f3388c66c13"
 
-"@types/graphql@^0.13.3":
-  version "0.13.3"
-  resolved "https://registry.yarnpkg.com/@types/graphql/-/graphql-0.13.3.tgz#23af65796d341f93ef5b485138bd52c67786452d"
-
 "@types/minimatch@*":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
@@ -616,18 +600,6 @@
 "@types/node@*":
   version "10.5.1"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.5.1.tgz#d578446f4abff5c0b49ade9b4e5274f6badaadfc"
-
-"@types/react-native@*", "@types/react-native@^0.55.27":
-  version "0.55.27"
-  resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.55.27.tgz#f291d3f781dcd76888a103fdccb992c9dddd2d2b"
-  dependencies:
-    "@types/react" "*"
-
-"@types/react@*", "@types/react@^16.4.6":
-  version "16.4.6"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.4.6.tgz#5024957c6bcef4f02823accf5974faba2e54fada"
-  dependencies:
-    csstype "^2.2.0"
 
 "@types/zen-observable@^0.5.3":
   version "0.5.4"
@@ -1999,7 +1971,7 @@ chalk@^1.1.1, chalk@^1.1.3:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
-chalk@^2.0.0, chalk@^2.0.1, chalk@^2.3.0, chalk@^2.4.0:
+chalk@^2.0.0, chalk@^2.0.1, chalk@^2.3.0:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.1.tgz#18c49ab16a037b6eb0152cc83e3471338215b66e"
   dependencies:
@@ -2292,7 +2264,7 @@ create-react-class@^15.6.3:
     loose-envify "^1.3.1"
     object-assign "^4.1.1"
 
-create-react-context@^0.2.1:
+create-react-context@^0.2.1, create-react-context@^0.2.2:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/create-react-context/-/create-react-context-0.2.2.tgz#9836542f9aaa22868cd7d4a6f82667df38019dca"
   dependencies:
@@ -2328,10 +2300,6 @@ cssom@0.3.x, "cssom@>= 0.3.2 < 0.4.0":
   resolved "https://registry.yarnpkg.com/cssstyle/-/cssstyle-0.3.1.tgz#6da9b4cff1bc5d716e6e5fe8e04fcb1b50a49adf"
   dependencies:
     cssom "0.3.x"
-
-csstype@^2.2.0:
-  version "2.5.5"
-  resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.5.5.tgz#4125484a3d42189a863943f23b9e4b80fedfa106"
 
 dashdash@^1.12.0:
   version "1.14.1"
@@ -2396,6 +2364,10 @@ deep-is@~0.1.3:
 deepmerge@^1.3.0, deepmerge@^1.5.1:
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-1.5.2.tgz#10499d868844cdad4fee0842df8c7f6f0c95a753"
+
+deepmerge@^2.1.0:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-2.1.1.tgz#e862b4e45ea0555072bf51e7fd0d9845170ae768"
 
 default-require-extensions@^2.0.0:
   version "2.0.0"
@@ -2981,10 +2953,6 @@ find-cache-dir@^1.0.0:
     commondir "^1.0.1"
     make-dir "^1.0.0"
     pkg-dir "^2.0.0"
-
-find-root@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/find-root/-/find-root-1.1.0.tgz#abcfc8ba76f708c42a97b3d685b7e9450bfb9ce4"
 
 find-up@^2.0.0, find-up@^2.1.0:
   version "2.1.0"
@@ -4177,10 +4145,6 @@ jest@^22.4.2:
   dependencies:
     import-local "^1.0.0"
     jest-cli "^22.4.4"
-
-jju@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/jju/-/jju-1.3.0.tgz#dadd9ef01924bc728b03f2f7979bdbd62f7a2aaa"
 
 joi@^10.0.2:
   version "10.6.0"
@@ -5647,9 +5611,9 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-apollo@^2.1.8:
-  version "2.1.8"
-  resolved "https://registry.yarnpkg.com/react-apollo/-/react-apollo-2.1.8.tgz#ebac0d9bee0f0906df3ce29207f94df337009887"
+react-apollo@^2.1.9:
+  version "2.1.9"
+  resolved "https://registry.yarnpkg.com/react-apollo/-/react-apollo-2.1.9.tgz#1fd30ea2116375197bd53daa725e6fb8ab43ab80"
   dependencies:
     fbjs "^0.8.16"
     hoist-non-react-statics "^2.5.0"
@@ -5736,6 +5700,16 @@ react-native-maps@0.21.0:
     babel-plugin-module-resolver "^2.3.0"
     babel-preset-react-native "1.9.0"
 
+react-native-paper@^1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/react-native-paper/-/react-native-paper-1.11.0.tgz#f4900553315eefcf3a8857d80b2e9dc159398a9f"
+  dependencies:
+    color "^2.0.1"
+    create-react-context "^0.2.2"
+    deepmerge "^2.1.0"
+    hoist-non-react-statics "^2.5.0"
+    react-lifecycles-compat "^3.0.4"
+
 react-native-safe-area-view@^0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/react-native-safe-area-view/-/react-native-safe-area-view-0.7.0.tgz#38f5ab9368d6ef9e5d18ab64212938af3ec39421"
@@ -5799,16 +5773,6 @@ react-native-tab-view@^1.0.0:
   resolved "https://registry.yarnpkg.com/react-native-tab-view/-/react-native-tab-view-1.0.2.tgz#66e0bc6d38a227ed2b212e3a256b7902f6ce02ed"
   dependencies:
     prop-types "^15.6.1"
-
-react-native-typescript-transformer@^1.2.10:
-  version "1.2.10"
-  resolved "https://registry.yarnpkg.com/react-native-typescript-transformer/-/react-native-typescript-transformer-1.2.10.tgz#6f76c1449028cdeafa184b533301ecd547367ed1"
-  dependencies:
-    chalk "^2.4.0"
-    find-root "^1.1.0"
-    jju "^1.3.0"
-    semver "^5.4.1"
-    source-map "^0.5.6"
 
 react-native-vector-icons@4.5.0:
   version "4.5.0"
@@ -6996,10 +6960,6 @@ type-is@~1.6.15, type-is@~1.6.16:
 typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
-
-typescript@^2.9.2:
-  version "2.9.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.9.2.tgz#1cbf61d05d6b96269244eb6a3bce4bd914e0f00c"
 
 ua-parser-js@^0.7.18:
   version "0.7.18"

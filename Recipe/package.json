@@ -1,18 +1,12 @@
 {
-  "name": "CookBook",
+  "name": "Recipe",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "@types/expo": "^27.0.5",
-    "@types/graphql": "^0.13.3",
-    "@types/react": "^16.4.6",
-    "@types/react-native": "^0.55.27",
     "jest-expo": "~27.0.0",
     "prettier": "^1.13.7",
     "react-native-scripts": "1.14.0",
-    "react-native-typescript-transformer": "^1.2.10",
-    "react-test-renderer": "16.3.1",
-    "typescript": "^2.9.2"
+    "react-test-renderer": "16.3.1"
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
@@ -20,7 +14,8 @@
     "eject": "react-native-scripts eject",
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
-    "test": "jest"
+    "test": "jest",
+    "format": "prettier --write"
   },
   "jest": {
     "preset": "jest-expo"
@@ -31,8 +26,10 @@
     "graphql": "^0.13.2",
     "graphql-tag": "^2.9.2",
     "react": "16.3.1",
-    "react-apollo": "^2.1.8",
+    "react-apollo": "^2.1.9",
     "react-native": "~0.55.2",
+    "react-native-paper": "^1.11.0",
+    "react-native-reversed-flat-list": "^1.0.2",
     "react-navigation": "^2.5.5"
   }
 }
